@@ -1,0 +1,20 @@
+$color_1: var(--focus);
+$color_2: var(--black);
+$color_3: var(--white);
+$font-family_1: "Raleway";
+
+.logo {
+  font-family: $font-family_1;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: $color_1;
+  line-height: 1.17;
+
+  &__right-word--black {
+    color: $color_2;
+  }
+  &__right-word--white {
+    color: $color_3;
+  }
+}

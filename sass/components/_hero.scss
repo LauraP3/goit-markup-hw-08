@@ -1,0 +1,24 @@
+$color_1: var(--white);
+$background-color_1: var(--dark-background-color);
+
+.hero-page {
+  background-size: cover;
+  background-repeat: none;
+  padding: 200px 452px 280px 452px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  width: 1600px;
+  position: relative;
+  background-color: rgba(47, 48, 58, 0.4);
+  &__main-title {
+    color: $color_1;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+}

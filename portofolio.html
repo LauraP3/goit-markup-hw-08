@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="page-header">
+        <a href="index.html" class="logo"
+          >Web<span class="logo__right-word--black">Studio</span></a
+        >
+        <nav>
+          <ul class="navigation">
+            <li class="navigation__item">
+              <a class="link" href="index.html">Studio</a>
+            </li>
+            <li class="navigation__item">
+              <a class="link link--highlight-header" href="portofolio.html"
+                >Portofolio</a
+              >
+            </li>
+            <li class="navigation__item">
+              <a class="link" href="contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-header__contact">
+          <div class="page-header__contact-item">
+            <svg class="page-header__contact-icon" width="16px" height="12px">
+              <use href="./Icons/symbol-defs.svg#icon-envelope"></use>
+            </svg>
+            <a
+              href="mailto:info@devstudio.com"
+              class="link link--primary-heading-color"
+              >info@devstudio.com</a
+            >
+          </div>
+          <div class="page-header__contact-item">
+            <svg
+              class="page-header__contact-icon page-header__contact-icon--center"
+              width="10px"
+              height="16px"
+            >
+              <use href="./Icons/symbol-defs.svg#icon-smartphone"></use>
+            </svg>
+            <a href="tel:+12127724150" class="link link--primary-heading-color"
+              >+1 212-772-4150</a
+            >
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="products-section">
+          <ul class="products-section__filter-list">
+            <li><button class="products-section__fiter-item" type="button">All</button></li>
+            <li><button class="products-section__fiter-item" type="button">Web-sites</button></li>
+            <li><button class="products-section__fiter-item" type="button">Apps</button></li>
+            <li><button class="products-section__fiter-item" type="button">Design</button></li>
+            <li><button class="products-section__fiter-item" type="button">Marketing</button></li>
+          </ul>
+
+          <div class="products-section__grid">
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/laptop.jpg"
+                  alt="laptop"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Technoduck</h3>
+              <p class="products-section__category">Web-site</p>
+            </div>
+
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/basketball.jpg"
+                  alt="two basketball players jumping for the ball"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Poster New Orlean vs Golden Star</h3>
+              <p class="products-section__category">Design</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/seafood.jpg"
+                  alt="logo with a faded fish for a seafood restaurant"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Seafood Restaurant</h3>
+              <p class="products-section__category">Apps</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/headphones.jpg"
+                  alt="headphones"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Project Prime</h3>
+              <p class="products-section__category">Marketing</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/boxes.jpg"
+                  alt="two boxes"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Project Boxes</h3>
+              <p class="products-section__category">Apps</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/desktop.jpg"
+                  alt="desktop"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p class="products-section__overlay-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Inspiration has no Borders</h3>
+              <p class="products-section__category">Web-site</p>
+            </div>
+
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/magazine.jpg"
+                  alt="opened magazine"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Limited Edition</h3>
+              <p class="products-section__category">Design</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/clothing_tag.jpg"
+                  alt="close up of clothing tag"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Project LAB</h3>
+              <p class="products-section__category">Marketing</p>
+            </div>
+            <div class="products-section__card">
+              <div class="products-section__image">
+                <img
+                  src="./images/laptop_typing.jpg"
+                  alt="typing using a laptop's keyboard"
+                  width="370"
+                  height="294"
+                />
+                <div class="products-section__overlay">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia quidem ipsum aliquid distinctio officia
+                    voluptatibus molestias? Pariatur accusantium ratione aut?
+                  </p>
+                </div>
+              </div>
+              <h3 class="products-section__title">Growing Business</h3>
+              <p class="products-section__category">Apps</p>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="page-footer">
+        <a class="logo" href="index.html"
+          >Web<span class="logo__right-word--white">Studio</span></a
+        >
+        <div class="container-footer">
+          <address class="address-block">
+            <p class="address-block__information">695 Park Ave, NY 10065, USA</p>
+            <a class="link link--footer" href="mailto:info@devstudio.com" 
+              >info@devstudio.com</a
+            >
+            <a class="link link--footer" href="tel:+12127724150" >+1 212-772-4150</a>
+          </address>
+          <div class="page-footer__social">
+            <h3 class="page-footer__social-label">Find us on</h3>
+            <div class="page-footer__social-grid">
+              <div class="page-footer__team-section-icon">
+                <svg class="icon-footer" width="20px" height="20px">
+                  <use href="./Icons/symbol-defs.svg#icon-instagram-2"></use>
+                </svg>
+              </div>
+              <div class="page-footer__team-section-icon">
+                <svg class="icon-footer" width="20px" height="16.25px">
+                  <use href="./Icons/symbol-defs.svg#icon-twitter"></use>
+                </svg>
+              </div>
+              <div class="page-footer__team-section-icon">
+                <svg class="icon-footer" width="20px" height="20px">
+                  <use href="./Icons/symbol-defs.svg#icon-facebook-1"></use>
+                </svg>
+              </div>
+              <div class="page-footer__team-section-icon">
+                <svg class="icon-footer" width="20px" height="20px">
+                  <use href="./Icons/symbol-defs.svg#icon-linkedin"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <form class="subscription-form">
+            <label>
+              <span class="subscription-form__label">Subscribe to the newsletter</span>
+              <input class="subscription-form__field" type="email" name="email" placeholder="E-mail"> 
+            </label>
+            <button class="subscription-form__btn" type="submit">Subscribe 
+              <svg class="subscription-form__btn-icon" width="24" height="24">
+                <use href="./Icons/symbol-defs.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </footer>
+    </div>
+  </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+$tablet: 481px;
+$desktop: 769px;
+
+:root {
+  --focus: #2196f3;
+  --btn-noactive: #f5f4fa;
+  --white: #ffffff;
+  --dark-background-color: #2f303a;
+  --accent-bg-color: #ffffff1a;
+  --secondary-titles-color: #212121;
+  --main-text-color: #757575;
+  --social-icon-bg-footer: #ffffff99;
+  --border-hover-color: #eeeeee;
+  --btn-focus: #188ce8;
+  --black: #000000;
+  --customer-boder: #afb1b8;
+  --gallery-overlay: rgba(47, 48, 58, 0.8);
+  --products-overlay: rgba(33, 150, 243, 0.9);
+  --mdl-backgound: rgba(0, 0, 0, 0.2);
+  --input-border: rgba(255, 255, 255, 0.3);
+}
