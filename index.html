@@ -15,6 +15,10 @@
   <body>
     <div class="container">
       <header class="page-header">
+        <div class="mobile-menu js-menu-container" id="mobile-menu">
+          here will be the menu
+        </div>
+      </div>
         <a href="index.html" class="logo"
           >Web<span class="logo__right-word--black">Studio</span></a
         >
@@ -48,7 +52,28 @@
             <a href="tel:+12127724150" class="link link--primary-heading-color">+1 212-772-4150</a>
           </div>
         </div>
-      </header>
+      </div>
+    </div>
+    <button
+    class="menu-toggle js-open-menu"
+    aria-expanded="false"
+    aria-controls="mobile-menu"
+  >
+    <svg
+      width="24"
+      height="24"
+      fill="currentColor"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+        clip-rule="evenodd"
+      ></path>
+    </svg>
+  </button>
+   </header>
 
       <main>
         <section class="hero-page" >
@@ -413,5 +438,6 @@
         </form>
     </div>
     <script src="js/modal.js"></script>
+    <script src="js/mobile-menu.js>"></script>
   </body>
 </html>
