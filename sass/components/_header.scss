@@ -41,14 +41,6 @@
     display: flex;
   }
 }
-
-.mobile-menu {
-  display: flex;
-  &.is-open {
-    width: 200px;
-  }
-}
-
 @media screen and (min-width: $tablet) {
   .page-header {
     padding-top: 26px;
