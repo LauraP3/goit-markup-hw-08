@@ -44,6 +44,7 @@ $color_5: var(--focus);
 
 .link--primary-heading-color {
   color: $color_3;
+  white-space: nowrap;
 }
 
 .link--footer,
@@ -53,11 +54,49 @@ $color_5: var(--focus);
   letter-spacing: 0.03em;
   color: $color_4;
   display: block;
+  text-align: center;
   text-decoration: none;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:focus,
   &:hover {
     color: $color_5;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: $tablet) {
+  .link--footer,
+  .linl:visited {
+    padding-top: 12px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: $color_4;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+      color: $color_5;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
+}
+@media screen and (min-width: $desktop) {
+  .link--footer,
+  .linl:visited {
+    padding-top: 12px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: $color_4;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+      color: $color_5;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
   }
 }

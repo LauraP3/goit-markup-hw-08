@@ -1,17 +1,17 @@
 .page-header {
   display: flex;
   align-items: center;
-  padding-top: 23px;
-  width: 1600px;
-  padding-bottom: 32px;
-  padding-left: 215px;
+  padding-top: 16px;
+  width: 480px;
+  padding-bottom: 16px;
+  padding-left: 15px;
   position: relative;
   color: var(--main-text-color);
 
   &__contact {
     margin-left: 330px;
-    display: flex;
-    gap: 40px;
+    display: none;
+    flex-direction: row;
   }
 
   &__contact-item {
@@ -34,10 +34,78 @@
   margin: 0;
   padding-left: 93px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+  display: none;
   gap: 50px;
 
   &__item {
     display: flex;
+  }
+}
+@media screen and (min-width: $tablet) {
+  .page-header {
+    padding-top: 23px;
+    padding-bottom: 26px;
+
+    &__contact {
+      margin-left: 114px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__contact-item {
+      &:hover {
+        filter: invert(45%) sepia(92%) saturate(1752%) hue-rotate(184deg)
+          brightness(98%) contrast(95%);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+    &__contact-icon {
+      margin-right: 8px;
+    }
+    &__contact-icon--center {
+      vertical-align: middle;
+    }
+  }
+
+  .navigation {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 93px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    gap: 50px;
+
+    &__item {
+      display: flex;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .page-header {
+    padding-top: 23px;
+    width: 1600px;
+    padding-bottom: 32px;
+    padding-left: 215px;
+    &__contact {
+      margin-left: 330px;
+      display: flex;
+      gap: 40px;
+      flex-direction: row;
+    }
+
+    &__contact-item {
+      &:hover {
+        filter: invert(45%) sepia(92%) saturate(1752%) hue-rotate(184deg)
+          brightness(98%) contrast(95%);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+    &__contact-icon {
+      margin-right: 10px;
+    }
+    &__contact-icon--center {
+      vertical-align: middle;
+    }
   }
 }

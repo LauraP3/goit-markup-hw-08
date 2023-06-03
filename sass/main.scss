@@ -27,7 +27,6 @@ body {
 }
 
 .container {
-  width: 1600px;
   background-color: var(--white);
   margin: 0 auto;
 }
@@ -40,4 +39,14 @@ body {
   text-align: center;
   margin: 0;
   padding-bottom: 50px;
+}
+@media screen and (min-width: $tablet) {
+  .container {
+    width: 1600px;
+  }
+}
+@media screen and (min-width: $desktop) {
+  .container {
+    width: 1600px;
+  }
 }
