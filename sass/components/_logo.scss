@@ -6,14 +6,21 @@ $font-family_1: "Raleway";
 .logo {
   font-family: $font-family_1;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 24px;
   text-decoration: none;
   color: $color_1;
-  line-height: 1.17;
+  line-height: 28px;
   &__right-word--black {
     color: $color_2;
   }
   &__right-word--white {
     color: $color_3;
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.17;
   }
 }

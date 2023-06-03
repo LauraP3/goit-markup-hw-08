@@ -57,7 +57,7 @@
   padding-top: 28px;
   font-style: normal;
   &__information {
-    color: var(--white-color);
+    color: #fff;
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
@@ -101,12 +101,12 @@
     padding-top: 28px;
 
     &__information {
-      color: var(--white-color);
       font-size: 14px;
       line-height: 1.1;
       letter-spacing: 0.03em;
       margin: 0;
       text-align: center;
+      color: #fff;
     }
   }
   .page-footer__team-section-icon {
@@ -133,7 +133,6 @@
     padding-top: 28px;
     font-style: normal;
     &__information {
-      color: var(--white-color);
       font-size: 14px;
       line-height: 1.1;
       letter-spacing: 0.03em;
@@ -199,7 +198,7 @@
     padding-top: 28px;
     font-style: normal;
     &__information {
-      color: var(--white-color);
+      color: #fff;
       font-size: 14px;
       line-height: 1.1;
       letter-spacing: 0.03em;
@@ -211,11 +210,11 @@
     padding-top: 28px;
     font-style: normal;
     &__information {
-      color: var(--white-color);
       font-size: 14px;
       line-height: 1.1;
       letter-spacing: 0.03em;
       margin: 0;
+      text-align: left;
     }
   }
 }

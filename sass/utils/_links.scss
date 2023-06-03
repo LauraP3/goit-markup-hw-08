@@ -90,6 +90,25 @@ $color_5: var(--focus);
   .logo--responsive {
     margin-left: 115px;
   }
+
+  .link--highlight-header {
+    color: $color_2;
+    &:visited {
+      color: $color_2;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      border-radius: 2px;
+      background-color: $background-color_1;
+      top: 49px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      color: $color_2;
+    }
+  }
 }
 @media screen and (min-width: $desktop) {
   .link--footer,
@@ -110,5 +129,24 @@ $color_5: var(--focus);
   }
   .logo--responsive {
     margin-left: 0px;
+  }
+
+  .link--highlight-header {
+    color: $color_2;
+    &:visited {
+      color: $color_2;
+    }
+    &:after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      border-radius: 2px;
+      background-color: $background-color_1;
+      top: 50px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      color: $color_2;
+    }
   }
 }
