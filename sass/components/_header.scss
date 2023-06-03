@@ -9,7 +9,7 @@
   color: var(--main-text-color);
 
   &__contact {
-    margin-left: 330px;
+    margin-right: 225px;
     display: none;
     flex-direction: row;
   }
@@ -43,16 +43,20 @@
 }
 @media screen and (min-width: $tablet) {
   .page-header {
-    padding-top: 23px;
+    padding-top: 26px;
     padding-bottom: 26px;
 
     &__contact {
-      margin-left: 114px;
       display: flex;
       flex-direction: column;
+      gap: 10px;
+      margin-left: 114px;
     }
 
     &__contact-item {
+      display: flex;
+      gap: 8px;
+
       &:hover {
         filter: invert(45%) sepia(92%) saturate(1752%) hue-rotate(184deg)
           brightness(98%) contrast(95%);
@@ -60,7 +64,7 @@
       }
     }
     &__contact-icon {
-      margin-right: 8px;
+      margin-right: 0px;
     }
     &__contact-icon--center {
       vertical-align: middle;

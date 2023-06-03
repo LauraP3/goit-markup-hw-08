@@ -26,6 +26,7 @@ $background-color_1: var(--dark-background-color);
 @media screen and (min-width: $tablet) {
   .hero-page {
     padding: 118px 204px 198px 204px;
+    width: fit-content;
 
     &__main-title {
       color: $color_1;

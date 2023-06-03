@@ -138,13 +138,15 @@ $background-color_1: var(--dark-background-color);
 }
 @media screen and (min-width: $tablet) {
   .subscription-form {
-    width: 570px;
+    width: 450px;
     margin-left: 15px;
-    flex-direction: row;
+    flex-direction: column;
     display: flex;
+    align-items: center;
+    justify-content: center;
     &__field {
       display: inline-block;
-      width: 358px;
+      width: 450px;
       height: 50px;
       border: 1px solid var(--input-border);
       filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -155,7 +157,6 @@ $background-color_1: var(--dark-background-color);
       line-height: 20px;
       letter-spacing: 0.03em;
       color: $color_1;
-      padding-left: 16px;
     }
     &__label {
       font-weight: 700;
