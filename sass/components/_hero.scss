@@ -2,7 +2,7 @@ $color_1: var(--white);
 $background-color_1: var(--dark-background-color);
 
 .hero-page {
-  background-image: url("/images/mobile_bg.jpg");
+  background-image: url("./images/mobile_bg.jpg");
   background-size: cover;
   object-fit: scale-down;
   background-repeat: none;
@@ -29,7 +29,7 @@ $background-color_1: var(--dark-background-color);
   .hero-page {
     padding: 118px 204px 198px 204px;
     width: 768px;
-    background-image: url("/images/tablet_bg.jpg");
+    background-image: url("./images/tablet_bg.jpg");
 
     &__main-title {
       color: $color_1;
@@ -49,7 +49,7 @@ $background-color_1: var(--dark-background-color);
   .hero-page {
     padding: 200px 452px 280px 452px;
     width: 1600px;
-    background-image: url("/images/hero_bg.jpg");
+    background-image: url("./images/hero_bg.jpg");
     &__main-title {
       color: $color_1;
       font-weight: 900;
