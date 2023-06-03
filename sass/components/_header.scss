@@ -41,6 +41,7 @@
     display: flex;
   }
 }
+
 @media screen and (min-width: $tablet) {
   .page-header {
     padding-top: 26px;
@@ -83,6 +84,12 @@
       display: flex;
     }
   }
+  .menu-container {
+    display: none;
+  }
+  .js-open-menu {
+    display: none;
+  }
 }
 
 @media screen and (min-width: $desktop) {
@@ -111,5 +118,11 @@
     &__contact-icon--center {
       vertical-align: middle;
     }
+  }
+  .menu-container {
+    display: none;
+  }
+  .js-open-menu {
+    display: none;
   }
 }
